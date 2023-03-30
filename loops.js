@@ -7,11 +7,7 @@ for(let i = 0; i <= 10000; i++) {
     else if (i == "10000") alert("The loop is done!");
 }
 const favourite = ["Naruto", "My Hero Academia", "The Walking Dead", "Yugioh", "Destination Truth"]
-console.log(favourite)
+const number = ["#1", "#2", "#3", "#4", "#5"]
 for(let i=0; i < favourite.length; i++) {
-    console.log("My #1 favorite tv show is Naruto")
-    console.log("My #2 favorite tv show is My Hero Academia")
-    console.log("My #3 favorite tv show is The Walking Dead")
-    console.log("My #4 favorite tv show is Yu-Gi-Oh")
-    console.log("My #5 favorite tv show is Destination Truth")
+    console.log(`My ${number[i]} favourite tv show is ${favourite[i]}.`);
 }
